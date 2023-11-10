@@ -14,7 +14,7 @@ public class Main {
 
     public static void wordDeclensions(String name, int apples) {
         String wordDeclensions = null;
-        if (apples % 10 == 1) {
+       if ((apples % 10 == 1) && (apples != 11))  {
             wordDeclensions = " яблоко";
         } else {
             if (((apples % 10 == 2) || (apples % 10 == 3) || (apples % 10 == 4)) && (apples / 10 != 1)) {
